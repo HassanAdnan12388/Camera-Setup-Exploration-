@@ -13,7 +13,9 @@ Objective: Investigate how varying focal length (400mm, 800mm, 1600mm) affects t
 - Project 3D points onto the 2D plane.
 - Visualize the 2D projections using visualize_points().
 - Analyze the changes in field of view, scale, and perceived depth with increasing focal length.
-  
+- Graphs: The graphs will demonstrate a clear decrease in the size of the projected figure as the focal length increases. This visually confirms the concept of "zooming in" with longer focal lengths.
+
+
 # Part 2: Exploring the Effect of Camera Position 
 **Objective**: Examine how changing camera position (center, right, up) affects the projection while maintaining a constant focal length (1200mm).
 
@@ -21,6 +23,8 @@ Objective: Investigate how varying focal length (400mm, 800mm, 1600mm) affects t
 - Create projection matrices for each camera position.
 - Project 3D points and visualize the 2D projections.
 - Analyze the changes in perspective and orientation of the 3D model as the camera position shifts.
+- Graphs: The graphs will show how the figure appears to "move" relative to the image frame as the camera position changes. For example, shifting the camera to the right will cause the figure to appear to move to the left in the projection.
+
 
 
 # Part 3: Telephoto Effect vs. Camera Position 
